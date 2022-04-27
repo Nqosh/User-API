@@ -1,2 +1,2 @@
 # User-API
-To clone the solution you can use the git clone command on Powrshell or GitBash or another tool or downalod the zip file
+To clone the solution you can use the git clone command on Powershell or GitBash or another tool or download the zip file
