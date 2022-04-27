@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserAPI</name>
+    </assembly>
+    <members>
+        <member name="T:UserAPI.Controllers.UserController">
+            <summary>
+            UserController
+            </summary>
+        </member>
+        <member name="M:UserAPI.Controllers.UserController.#ctor(UserAPI.Services.IUser)">
+            <summary>
+             Get Users
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:UserAPI.Controllers.UserController.Post(UserAPI.Model.User)">
+            <summary>
+            Save User
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAPI.Model.User">
+            <summary>
+            User Class
+            </summary>
+        </member>
+        <member name="P:UserAPI.Model.User.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:UserAPI.Model.User.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:UserAPI.Model.User.Surname">
+            <summary>
+            Surname
+            </summary>
+        </member>
+        <member name="P:UserAPI.Model.User.CellPhone">
+            <summary>
+            CellPhone
+            </summary>
+        </member>
+        <member name="M:UserAPI.Services.IUser.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UserAPI.Services.IUser.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAPI.Services.IUser.Create(UserAPI.Model.User)">
+            <summary>
+            
+            </summary>
+            <param name="User"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UserAPI.Services.IUser.Update(UserAPI.Model.User)">
+            <summary>
+            
+            </summary>
+            <param name="User"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UserAPI.Services.UserService">
+            <summary>
+            UserService Class
+            </summary>
+        </member>
+        <member name="M:UserAPI.Services.UserService.GetAll">
+            <summary>
+            
+            </summary>
+            <returns>User</returns>
+        </member>
+    </members>
+</doc>

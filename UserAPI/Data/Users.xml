@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User>
+    <Id>1</Id>
+    <Name>Nqobile</Name>
+    <Surname>Moyo</Surname>
+    <CellPhone>0718494511</CellPhone>
+  </User>
+  <User>
+    <Id>2</Id>
+    <Name>Ntokozo</Name>
+    <Surname>Nyembe</Surname>
+    <CellPhone>0718494511</CellPhone>
+  </User>
+  <User>
+    <Id>3</Id>
+    <Name>Ntombi</Name>
+    <Surname>Nyembe</Surname>
+    <CellPhone>0732728356</CellPhone>
+  </User>
+</Users>
